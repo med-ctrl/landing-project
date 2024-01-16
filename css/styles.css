@@ -64,7 +64,7 @@ body{
     color: inherit;
     border: none;
     border-radius: 4px;
-    padding : 4px 8px;
+    padding : 4px 8px;  
 }
 
 
@@ -104,4 +104,31 @@ body{
 }
 .box p {
     text-align: center;
+}
+
+
+
+.content-two {
+    background-color: #E5E7EB;
+    padding : 100px;
+    display :flex ;
+    justify-content: center;
+}
+.content-two p {
+    font-size : 36px; 
+    font-weight: lighter ;
+    font-style: italic ;
+    color  : #1F2937;
+}
+.content-two .credits {
+    font-size: 26px;
+    font-weight: bolder;
+    align-self: self-end;
+}
+.quote {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

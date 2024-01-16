@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .header {
     background-color: #1F2937;
@@ -19,6 +21,7 @@ body{
 .logo h1 {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bolder;
 }
 .logo .links {
     list-style: none;
@@ -62,4 +65,43 @@ body{
     border: none;
     border-radius: 4px;
     padding : 4px 8px;
+}
+
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding : 80px 20px
+}
+.content-one h1 {
+    font-size: 36px;
+    font-weight: bolder;
+
+}
+.image-box {
+    display: flex;    
+    flex: 1;
+    justify-content: center;
+    height: 50px;
+    gap: 20px;
+
+}
+.box img {
+    width: 150px;
+    height: 150px;
+    border : 2px #3882F6 solid ;
+    border-radius: 8px;
+    display: block;
+}
+.box {
+    text-wrap: wrap;
+    flex: 1;
+    width: 150px;
+    height: auto;
+
+}
+.box p {
+    text-align: center;
 }

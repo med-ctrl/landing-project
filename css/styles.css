@@ -2,6 +2,7 @@ body{
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
 .header {
     background-color: #1F2937;
@@ -160,4 +161,18 @@ body{
 }
 .blue-box p {
     color: #E5E7EB;
+}
+
+
+.footer {
+    display :flex ;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    margin: 0px;
+    padding: 40px;
+}
+img {
+    object-fit: cover;
 }

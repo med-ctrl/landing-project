@@ -88,7 +88,7 @@ body{
     flex: 1;
     justify-content: center;
     height: 50px;
-    gap: 40px;
+    gap: 50px;
 
 }
 .box img {
@@ -129,11 +129,12 @@ body{
     align-self: self-end;
 }
 .quote {
-    width: 50vh;
+    width: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 

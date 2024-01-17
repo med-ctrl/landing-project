@@ -69,6 +69,10 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+.intro a {
+    text-decoration: none;
+    color: inherit ;
+}
 
 
 .content-one {
@@ -161,6 +165,10 @@ body{
     padding : 8px 16px; 
     font-weight: bold;
     font-size: 18px;
+}
+.content-three a {
+    text-decoration: none;
+    color: inherit ;
 }
 .blue-box p {
     color: #E5E7EB;

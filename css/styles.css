@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     padding: 16px 150px;
     padding-bottom: 100px;
-    gap : 20px
+    gap : 50px
 }
 .logo {
     display: flex;
@@ -29,7 +29,7 @@ body{
     margin: 0px;
     padding: 0px 8px;
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 .links a {
     text-decoration: none;
@@ -67,6 +67,7 @@ body{
     border-radius: 4px;
     padding : 8px 16px; 
     font-weight: bold;
+    font-size: 18px;
 }
 
 
@@ -87,7 +88,7 @@ body{
     flex: 1;
     justify-content: center;
     height: 50px;
-    gap: 20px;
+    gap: 40px;
 
 }
 .box img {
@@ -158,6 +159,7 @@ body{
     border-radius: 4px;
     padding : 8px 16px; 
     font-weight: bold;
+    font-size: 18px;
 }
 .blue-box p {
     color: #E5E7EB;

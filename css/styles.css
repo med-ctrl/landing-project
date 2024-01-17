@@ -103,7 +103,6 @@ body{
     display: block;
 }
 .box {
-    text-wrap: wrap;
     flex: 1;
     width: 150px;
     height: auto;
@@ -168,7 +167,7 @@ body{
 }
 .content-three a {
     text-decoration: none;
-    color: inherit ;
+    color: #F9FAF8 ;
 }
 .blue-box p {
     color: #E5E7EB;
